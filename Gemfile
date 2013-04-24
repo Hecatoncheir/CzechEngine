@@ -7,8 +7,13 @@ gem 'rmagick'
 gem 'carrierwave'
 gem 'jquery-rails'
 
+gem 'unicorn'
+gem 'capistrano'
+
+
 group :production do
   gem 'pg'
+  gem 'therubyracer', :platforms => :ruby
 end
 
 group :development do
