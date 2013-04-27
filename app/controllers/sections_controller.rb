@@ -5,7 +5,7 @@ class SectionsController < ApplicationController
   # GET /sections
   # GET /sections.json
   def index
-    @sections = Section.includes(:categories).order('id DESC').all
+    @sections = Section.includes(:categories).order('created_at DESC').all
 
     respond_to do |format|
       format.html # index.html.erb

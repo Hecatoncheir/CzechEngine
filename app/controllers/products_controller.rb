@@ -1,5 +1,6 @@
 class ProductsController < ApplicationController
   
+  
   before_filter :find_section
   before_filter :find_category 
   
@@ -22,7 +23,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = @category.products.order('id DESC')
+    @products = @category.products
 
     respond_to do |format|
       format.html # index.html.erb

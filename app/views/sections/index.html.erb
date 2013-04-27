@@ -35,7 +35,7 @@
 		<% end %>
 				
 		<!-- Начало вывовда продуктов -->
-			<% category.products.each do |product| %>
+			<% category.products.order(:created_at).each do |product| %>
 			<nav>
 				<li> --- <%= link_to product.name, section_category_product_path(section, category, product) %><li>
 
