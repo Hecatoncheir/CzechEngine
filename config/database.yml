@@ -27,6 +27,6 @@ test:
 
 production:
   adapter: postgresql
-  database: czechfasad
+  database: czech
   host: localhost
   

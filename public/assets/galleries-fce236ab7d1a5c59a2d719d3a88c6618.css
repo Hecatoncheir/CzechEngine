@@ -1,0 +1,44 @@
+/*<!-- WRAP -->*/
+
+	.wrap .contant h1 {
+		color:#6b6b6b;
+		font-size:1.5em;
+		font-family: Arial;
+		margin-bottom:10px;
+	}
+	
+	.wrap article {
+		float:left;
+		margin:10px;
+	}
+	
+	article a img {
+		border: 6px solid #FFF;
+		-moz-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+		/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+		-moz-box-shadow: 0px 0px 8px #f2eff2;
+		-webkit-box-shadow: 0px 0px 8px #f2eff2;
+		box-shadow: 0px 0px 8px #f2eff2;
+		/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+		
+		
+	}
+	
+	.mark {
+		margin-top:10px;
+		color:#ff8a00;
+		font-size:0.8em;
+	}
+	
+	.actions {
+		clear:both;
+	}
+	
+	.wrap .in_contant {
+		width:100%;
+		margin-left:0;
+	}
+	
+		
