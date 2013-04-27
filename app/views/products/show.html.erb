@@ -43,7 +43,7 @@
 			  <% if @product.advantages.present? %>
 				<div class="info with_out_width">
 					<span>Преимущества:</span>
-					 <p><%= sanitaze(@product.advantages) %></p>
+					 <p><%= sanitize(@product.advantages) %></p>
 				</div>
 			  <% end %>
 				
@@ -58,7 +58,7 @@
 			  <% if @product.expense.present? %>
 				<div class="info with_out_width">
 					<span>Расход:</span>
-					 <p><%= sanitaze(@product.expense) %></p>
+					 <p><%= sanitize(@product.expense) %></p>
 				</div>
 			  <% end %>
 				
