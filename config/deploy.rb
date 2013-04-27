@@ -34,16 +34,18 @@ namespace :deploy do
     puts "Now edit the config files in #{shared_path}."
   end
   after "deploy:setup", "deploy:setup_config"
+  
+  task :symlink_uploads do
+       run "ln -nfs #{current_path}/uploads  #{release_path}/public/uploads"
+       run "ln -nfs #{shared_path}/uploads  #{release_path}/public/uploads"
+  end
+  after 'deploy:update_code', 'deploy:symlink_uploads'
 
   task :symlink_config, roles: :app do
     run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
   end
   after "deploy:finalize_update", "deploy:symlink_config"
   
-  task :symlink_uploads do
-       run "ln -nfs #{shared_path}/uploads  #{release_path}/public/uploads"
-  end
-  after 'deploy:update_code', 'deploy:symlink_uploads'
 
   desc "Make sure local git is in sync with remote."
   task :check_revision, roles: :web do
