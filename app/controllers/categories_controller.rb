@@ -11,7 +11,7 @@ class CategoriesController < ApplicationController
   # GET /categories
   # GET /categories.json
   def index
-    @categories = @section.categories.includes(:products)
+    @categories = @section.categories.includes(:products).order('id DESC')
 
     respond_to do |format|
       format.html # index.html.erb

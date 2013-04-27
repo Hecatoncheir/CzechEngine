@@ -22,7 +22,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = @category.products
+    @products = @category.products.order('id DESC')
 
     respond_to do |format|
       format.html # index.html.erb
