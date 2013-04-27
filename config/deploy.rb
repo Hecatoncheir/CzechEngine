@@ -36,8 +36,8 @@ namespace :deploy do
   after "deploy:setup", "deploy:setup_config"
   
   task :symlink_uploads do
-       run "ln -nfs #{release_path}/public/uploads/image #{current_path}/uploads/image"
-       run "ln -nfs #{release_path}/public/uploads/product #{shared_path}/uploads/product"
+       run "ln -nfs #{current_path}/uploads/image #{release_path}/public/uploads/image"
+       run "ln -nfs #{shared_path}/uploads/product #{release_path}/public/uploads/product"
   end
   after 'deploy:update_code', 'deploy:symlink_uploads'
 

@@ -22,7 +22,7 @@
 		
 	<!-- Начало вывовда категорий -->
 		
-		<% section.categories.each do |category| %>
+		<% section.categories.order(:created_at).each do |category| %>
 		<nav>
 			<li> -- <%= link_to category.name, section_category_path(section, category), class: "product_name" %><li>
 				
