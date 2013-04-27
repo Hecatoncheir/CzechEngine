@@ -1,4 +1,12 @@
-/*
-  Place all the styles related to the matching controller here.
-  They will automatically be included in application.css.
-*/
+table, .context {
+	width: 800px;
+}
+
+h1 {color: #6B6B6B; font-size:18px;}
+
+.item_content {
+	margin:10px 0;
+	display: block;
+	width: 200px;
+	float:left;
+}
