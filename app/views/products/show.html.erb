@@ -58,7 +58,7 @@
 			  <% if @product.expense.present? %>
 				<div class="info with_out_width">
 					<span>Расход:</span>
-					 <p><%= @product.expense %></p>
+					 <p><%= sanitaze(@product.expense) %></p>
 				</div>
 			  <% end %>
 				
