@@ -19,11 +19,13 @@
 			
 			<div class="product_info">
 				<h2><%= @product.name %></h2>
-				<%= link_to 'Техническая спецификация', @product.pdf_1 if @product.pdf_1.present? %>
+				<div class="clear">
+					<%= link_to 'Техническая спецификация', @product.pdf_1 if @product.pdf_1.present? %>
 
-					<%= link_to 'Свидетельство безопасности', @product.pdf_2 if @product.pdf_2.present? %>
+						<%= link_to 'Свидетельство безопасности', @product.pdf_2 if @product.pdf_2.present? %>
 
-				<%= link_to 'Декларация соответствия', @product.pdf_3 if @product.pdf_3.present? %>
+					<%= link_to 'Декларация соответствия', @product.pdf_3 if @product.pdf_3.present? %>
+				</div>
 				
 				
 				<% if @product.packing.present? %>

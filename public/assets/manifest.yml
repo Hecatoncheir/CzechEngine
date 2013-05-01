@@ -45,8 +45,8 @@ pages.js: pages-17ff75d887dc398ebef5bf59f4a433b1.js
 pages/index.js: pages-17ff75d887dc398ebef5bf59f4a433b1.js
 plugins.js: plugins-0dac15404be9335d4f22d995da716325.js
 plugins/index.js: plugins-0dac15404be9335d4f22d995da716325.js
-application.css: application-ec9a0e5bf0dc3e92c166ca31545d421b.css
-application/index.css: application-ec9a0e5bf0dc3e92c166ca31545d421b.css
+application.css: application-17181aface3bf542f0916359c8403e04.css
+application/index.css: application-17181aface3bf542f0916359c8403e04.css
 categories.css: categories-aba7852b8321d6188b79483a95a9be2d.css
 categories/index.css: categories-aba7852b8321d6188b79483a95a9be2d.css
 dashboard.css: dashboard-bf668c9476ab4324f04b964dfe7a7990.css
@@ -57,10 +57,10 @@ home.css: home-d38e8fa756e8ab461af707bb4c924d73.css
 home/index.css: home-d38e8fa756e8ab461af707bb4c924d73.css
 items.css: items-c6de4ca33640b381f6ed169913f9d556.css
 items/index.css: items-c6de4ca33640b381f6ed169913f9d556.css
-pages.css: pages-2cc6615a6232a6bfda0380ceed0c5d9b.css
-pages/index.css: pages-2cc6615a6232a6bfda0380ceed0c5d9b.css
-products.css: products-18d9e1aa040f3ed75220f57492e59f24.css
-products/index.css: products-18d9e1aa040f3ed75220f57492e59f24.css
+pages.css: pages-93dc3f3c7d03ff5ca85bc9d5fde8d168.css
+pages/index.css: pages-93dc3f3c7d03ff5ca85bc9d5fde8d168.css
+products.css: products-19a9619d14f16b2cbf63fee2e3b1474b.css
+products/index.css: products-19a9619d14f16b2cbf63fee2e3b1474b.css
 responsive.css: responsive-e627dd752a067b7ecf6923b7d3801a6e.css
 responsive/index.css: responsive-e627dd752a067b7ecf6923b7d3801a6e.css
 scaffold.css: scaffold-69418dbb0072a9f3caddf17c0e97f6fe.css

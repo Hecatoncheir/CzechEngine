@@ -45,18 +45,21 @@ nav {
 .product_image {
 	float: left;
 	display:block;
-	margin-right:10px;
+	width:20px;
+	margin-left:10px;
 	margin-top:-20px;
 }
 .product_info {
-	float:right;
-	width: 60%;
+	float:left;
+	width: 100%;
 	display:block;
 	margin-top:10px;
 }
 
+
 .product_info h2 {
 	font-size: 18px;
+	float:right;
 	color: #6B6B6B;
 }
 
