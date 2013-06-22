@@ -1,6 +1,6 @@
 <div class="about">
 	ООО "Чешские фасады"<br/>
-	<%= link_to 'Официальный дилер', "/doc/serf.jpg", class: "fb" %> "STOMIX spol s.r.o” <br /><br /> теперь в составе концерна Sto AG Германия
+	<%= link_to 'Официальный дилер', "/doc/serf.jpg", class: "fb" %> "STOMIX spol s.r.o” <br /> теперь в составе концерна Sto AG Германия
 </div>
 
 <div class="feedback">
