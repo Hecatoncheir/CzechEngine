@@ -964,6 +964,8 @@ a {
 			padding-left: 1.250em;
 		}
 
+		#FooterWrap .content a {color:#FF8600;}
+
 		.about {
 			padding-top:45px;
 			color:#949494;
