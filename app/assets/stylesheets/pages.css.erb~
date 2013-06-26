@@ -143,6 +143,15 @@ a {
 			right:58px;
 		}
 
+		#facade_in {
+			position:absolute;
+			display:block;
+			width:168px;
+			height:122px;
+			right:58px;
+			top:240px;
+		}
+
 
 		#copyright {
 			position:absolute;
@@ -220,7 +229,7 @@ a {
 			padding-left: 1.250em;
 		}
 
-		#FooterWrap .content a {color:#949494;}
+		#FooterWrap .content a {color:#FF8600;}
 
 		.about {
 			padding-top:45px;

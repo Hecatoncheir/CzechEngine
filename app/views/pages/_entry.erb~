@@ -10,7 +10,6 @@
 <nav>
 	<%= link_to '', "#{asset_path('promo.jpg')}", id: "facade_insulation_prev", class: "fb" %>
 	<%= link_to '', "#{asset_path('promo-2.png')}", id: "facade_insulation", class: "fb" %>
-	<%= link_to '', "#{asset_path('771-06-22.jpg')}", id: "facade_in", class: "fb" %>
 </nav>
 
 
